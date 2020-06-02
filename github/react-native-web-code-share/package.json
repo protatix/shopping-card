@@ -1,0 +1,17 @@
+{
+	"name": "root",
+	"version": "1.0.0",
+	"private": true,
+	"scripts": {
+		"clean": "rm -rf ./packages/*/node_modules",
+		"clean-locks": "rm -rf ./packages/*/yarn.lock",
+		"bootstrap": "lerna bootstrap",
+		"reset": "yarn clean && yarn clean-locks && yarn bootstrap",
+		"web": "cd packages/web/ && yarn start",
+		"ios": "cd packages/mobile/ && yarn ios",
+		"android": "cd packages/mobile/ && yarn android"
+	},
+	"devDependencies": {
+		"lerna": "^3.3.0"
+	}
+}

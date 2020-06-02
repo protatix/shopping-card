@@ -1,0 +1,14 @@
+{
+    "name": "checkout",
+    "private": true,
+    "workspaces": ["packages/*"],
+    "scripts": {
+        "dev:server": "cd packages/server && nodemon index.js",
+        "dev:client": "cd packages/client && yarn start",
+        "install": "cd packages && cd server && yarn install && cd ../client && yarn install",
+        "json:server": "json-server --watch packages/server/products.json",
+        "start": "concurrently \"yarn dev:server\" \"yarn json:server\" \"yarn dev:client\"",
+        "test": "cd packages/client && yarn test",
+        "test:coverage": "cd packages/client && yarn test:coverage"
+    }
+}
