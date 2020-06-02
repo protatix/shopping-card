@@ -1,0 +1,47 @@
+{
+  "name": "@checkout/client",
+  "version": "0.1.0",
+  "dependencies": {
+    "@apollo/react-hooks": "^3.1.5",
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.3.2",
+    "@testing-library/user-event": "^7.1.2",
+    "apollo-boost": "^0.4.9",
+    "graphql": "^15.0.0",
+    "prop-types": "^15.7.2",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-scripts": "3.4.1",
+    "styled-components": "^5.1.1"
+  },
+  "scripts": {
+    "start": "PORT=4000 react-app-rewired start",
+    "build": "react-app-rewired build",
+    "test": "react-app-rewired test --env=jsdom",
+    "eject": "react-scripts eject",
+    "test:coverage": "CI=true npm test -- --env=jsdom --coverage",
+    "test:debug": "react-scripts --inspect-brk test --runInBand --no-cache"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "check-prop-types": "^1.1.2",
+    "enzyme": "^3.11.0",
+    "enzyme-adapter-react-16": "^1.15.2",
+    "react-app-rewire-yarn-workspaces": "^1.0.3",
+    "react-app-rewired": "^2.1.6"
+  }
+}

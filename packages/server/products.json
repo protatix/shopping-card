@@ -1,0 +1,32 @@
+{
+    "products": [
+        {
+            "id": "1",
+            "image": "https://mcdn01.gittigidiyor.net/56171/tn50/561715494_tn50_0.jpg?1590867",
+            "title": "Apple iPhone 11 Cep Telefonu",
+            "price": "7.300,00 TL",
+            "shipStatus": "Ücretsiz – Aynı Gün Kargo"
+        },
+        {
+            "id": "2",
+            "image": "https://mcdn01.gittigidiyor.net/56171/tn50/561715494_tn50_0.jpg?1590867",
+            "title": "Apple iPhone 11 64GB-BEYAZ Cep Telefonu(Apple Turkiye Garantili)",
+            "price": "7.400,00 TL",
+            "shipStatus": "Ücretsiz Kargo"
+        },
+        {
+            "id": "3",
+            "image": "https://mcdn01.gittigidiyor.net/56171/tn50/561715494_tn50_0.jpg?1590867",
+            "title": "Apple iPhone 11 PRO 128GB-SIYAH Cep Telefonu(Apple Turkiye Garantili)",
+            "price": "7.520,00 TL",
+            "shipStatus": "Ücretli Kargo"
+        },
+        {
+            "id": "4",
+            "image": "https://mcdn01.gittigidiyor.net/56171/tn50/561715494_tn50_0.jpg?1590867",
+            "title": "Apple iPhone 11 256GB-RED Cep Telefonu (2 Yil Apple Turkiye Garantili)",
+            "price": "7.570,99 TL",
+            "shipStatus": "Ücretsiz – Aynı Gün Kargo"
+        }
+    ]
+}
